@@ -1,0 +1,11 @@
+# robots.txt — Dulhan Mehndi Art
+# https://www.dulhanmehndiart.in
+
+User-agent: *
+Allow: /
+
+# Nothing to hide — all pages are public.
+# (No admin, cart or private folders exist on this static site.)
+
+Sitemap: https://www.dulhanmehndiart.in/sitemap.xml
+
