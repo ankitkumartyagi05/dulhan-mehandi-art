@@ -3,7 +3,7 @@
 Work top-to-bottom. Everything before "Launch day" can be done in one sitting.
 
 ## 1. Domain
-- [ ] Buy the domain (e.g. `dulhanmehndiart.in`) at Namecheap / GoDaddy / Google-successor registrar
+- [ ] Buy the domain (e.g. `www.dulhanmehandiart.in`) at Namecheap / GoDaddy / Google-successor registrar
 - [ ] Enable auto-renew and WHOIS privacy
 - [ ] Save registrar login details somewhere safe (password manager)
 
@@ -11,7 +11,7 @@ Work top-to-bottom. Everything before "Launch day" can be done in one sitting.
 - [ ] Create Vercel account
 - [ ] Deploy: `vercel --prod` from the project folder (or drag-and-drop at vercel.com/new)
 - [ ] Verify the preview URL works: all 7 pages, gallery lightbox, video embeds, WhatsApp buttons
-- [ ] Add custom domain in Project → Settings → Domains; set both `dulhanmehndiart.in` and `www.`
+- [ ] Add custom domain in Project → Settings → Domains; set both `www.dulhanmehandiart.in` and `www.`
 - [ ] Update DNS at the registrar as instructed by Vercel (A record `76.76.21.21` / CNAME `cname.vercel-dns.com`)
 
 ## 3. SSL
@@ -28,7 +28,7 @@ Work top-to-bottom. Everything before "Launch day" can be done in one sitting.
 - Note: if using Cloudflare in front of Vercel, keep the DNS records proxied (orange cloud) and use Vercel's domain-verification TXT record
 
 ## 5. Find-and-replace placeholders (before or right after first deploy)
-- [ ] Replace `https://www.dulhanmehndiart.in` with the real domain in: all `.html` files, `robots.txt`, `sitemap.xml`
+- [ ] Replace `https://www.dulhanmehandiart.in` with the real domain in: all `.html` files, `robots.txt`, `sitemap.xml`
 - [ ] Replace geo coordinates in `index.html` schema with exact studio location
 
 ## 6. Google Analytics
@@ -72,4 +72,5 @@ Work top-to-bottom. Everything before "Launch day" can be done in one sitting.
 - [ ] Booking form opens WhatsApp with the message pre-filled
 - [ ] `https://yourdomain.com/robots.txt` and `/sitemap.xml` load
 - [ ] A wrong URL (e.g. `/xyz`) shows the branded 404 page
+
 

@@ -152,3 +152,4 @@ if (form) {
     window.open('https://wa.me/917428507199?text=' + encodeURIComponent(text), '_blank', 'noopener');
   });
 }
+

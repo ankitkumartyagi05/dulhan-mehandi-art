@@ -1,89 +1,267 @@
-# Dulhan Mehndi Art — Website
+<div align="center">
 
-Production-ready static website for **Dulhan Mehndi Art**, bridal mehndi studio in Kankarbagh, Patna.
-Built with plain HTML, CSS and JavaScript — no build step, no framework, nothing to compile.
+# 🌸 Dulhan Mehandi Art
+### ✨ Premium Bridal Mehendi Artist Portfolio & Booking Website ✨
 
-**Live domain (update after purchase):** `https://www.dulhanmehndiart.in`
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=E91E63&center=true&vCenter=true&width=900&lines=Welcome+to+Dulhan+Mehandi+Art!;Professional+Bridal+Mehendi+Website;SEO+Optimized+%7C+Fast+%7C+Responsive;Made+with+❤️+by+Ankit+Kumar+Tyagi" />
 
-> Updated domain: all site references now use `www.dulhanmehndiart.in`.
+<br>
+
+![Stars](https://img.shields.io/github/stars/ankitkumartyagi05/dulhan-mehandi-art?style=for-the-badge&color=yellow)
+![Forks](https://img.shields.io/github/forks/ankitkumartyagi05/dulhan-mehandi-art?style=for-the-badge&color=orange)
+![Issues](https://img.shields.io/github/issues/ankitkumartyagi05/dulhan-mehandi-art?style=for-the-badge&color=red)
+![License](https://img.shields.io/github/license/ankitkumartyagi05/dulhan-mehandi-art?style=for-the-badge&color=green)
+
+</div>
 
 ---
 
-## Folder structure
+# 🌐 Live Website
+
+### 👉 https://www.dulhanmehandiart.in
+
+---
+
+# 📖 About
+
+**Dulhan Mehandi Art** is a modern, elegant and fully responsive portfolio website designed for a professional Mehendi Artist.
+
+The website helps customers
+
+- 💍 Explore Mehendi Designs
+- 📅 Book Appointments
+- 📞 Contact Directly
+- 📍 View Location
+- ⭐ Read Reviews
+- 📱 Connect on Social Media
+
+---
+
+# ✨ Features
+
+## 🎨 Beautiful UI
+
+- Elegant Design
+- Luxury Theme
+- Smooth Animations
+- Modern Typography
+
+---
+
+## 📱 Fully Responsive
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## ⚡ Performance
+
+- Fast Loading
+- Optimized Images
+- Lazy Loading
+- SEO Friendly
+
+---
+
+## 🔍 SEO Optimized
+
+- XML Sitemap
+- Robots.txt
+- Meta Tags
+- Open Graph
+- Twitter Cards
+- Structured Data
+- Canonical URLs
+
+---
+
+## 📞 Booking
+
+- Call Now
+- WhatsApp
+- Contact Form
+
+---
+
+## 🗺️ Google Maps
+
+Integrated Location
+
+---
+
+## 📸 Gallery
+
+- Bridal Mehendi
+- Arabic Mehendi
+- Engagement
+- Festival Designs
+
+---
+
+# 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Usage |
+|------------|-------|
+| HTML5 | Website Structure |
+| CSS3 | Styling |
+| JavaScript | Functionality |
+| Bootstrap | Responsive Design |
+| Font Awesome | Icons |
+| Google Fonts | Typography |
+| Google Maps | Location |
+| GitHub | Version Control |
+| Vercel | Deployment |
+
+</div>
+
+---
+
+# 📂 Project Structure
+
+```text
+📦 dulhan-mehandi-art
+│
+├── index.html
+├── about.html
+├── services.html
+├── gallery.html
+├── contact.html
+├── sitemap.xml
+├── robots.txt
+├── manifest.json
+├── assets/
+│
+├── css/
+├── js/
+├── images/
+│
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+```bash
+git clone https://github.com/ankitkumartyagi05/dulhan-mehandi-art.git
+```
+
+```bash
+cd dulhan-mehandi-art
+```
+
+Open
 
 ```
-/
-├── index.html                  Home page
-├── about.html                  About the studio
-├── services.html               All six services
-├── gallery.html                33-photo gallery (photos load from Google Drive)
-├── videos.html                 14 video embeds (Google Drive)
-├── reviews.html                Customer reviews
-├── contact.html                Contact info + WhatsApp booking form
-├── 404.html                    Not-found page (Vercel serves it automatically)
-├── robots.txt                  Search engine crawling rules
-├── sitemap.xml                 Page list for Google/Bing
-├── site.webmanifest            PWA manifest (linked from every page)
-├── manifest.json               Copy of the manifest (alternate standard name)
-├── vercel.json                 Security headers, caching, clean URLs
-├── favicon.ico                 Browser tab icon (multi-size)
-├── favicon-16x16.png           Small favicon
-├── favicon-32x32.png           Standard favicon
-├── apple-touch-icon.png        iPhone/iPad home-screen icon
-├── android-chrome-192x192.png  Android icon
-├── android-chrome-512x512.png  Android icon (large / maskable)
-├── og-image.png                Preview image for WhatsApp/Facebook/Twitter shares
-├── README.md                   This file
-├── DEPLOYMENT-CHECKLIST.md     Step-by-step go-live checklist
-└── assets/
-    ├── style.css               All styling
-    ├── main.js                 Menu, gallery, lightbox, booking form
-    ├── ga.js                   Google Analytics loader (inactive until ID is set)
-    ├── logo.svg                Logo artwork
-    └── dulhan.svg              Bride illustration
+index.html
 ```
 
-## Deployment (Vercel — recommended)
+or run using VS Code Live Server.
 
-1. Create a free account at https://vercel.com (sign in with GitHub or email).
-2. Install the CLI: `npm i -g vercel` — or simply drag-and-drop this folder at https://vercel.com/new.
-3. From this folder run: `vercel --prod`. No build settings needed — it is a plain static site; `vercel.json` is picked up automatically (security headers, caching, clean URLs like `/about`).
-4. Add your custom domain under **Project → Settings → Domains** and follow the DNS instructions.
+---
 
-The site also works unchanged on Netlify, Cloudflare Pages, or any ordinary web host
-(for non-Vercel hosts, replicate the headers in `vercel.json` — see DEPLOYMENT-CHECKLIST.md).
+# 🌍 Deployment
 
-## After deployment — 4 one-time replacements
+Hosted on
 
-| What | Where | Replace |
-|---|---|---|
-| Real domain | All `.html` files, `robots.txt`, `sitemap.xml` | `https://www.dulhanmehndiart.in` → your actual domain (simple find-and-replace) |
-| Google Analytics | `assets/ga.js` | `G-XXXXXXXXXX` → your GA4 Measurement ID |
-| Search Console | All `.html` files | `PASTE-YOUR-VERIFICATION-CODE-HERE` → code from https://search.google.com/search-console |
-| Geo coordinates | `index.html` (JSON-LD block) | `25.5847, 85.1602` (Kankarbagh approx.) → exact studio coordinates from Google Maps |
+- ✅ Vercel
 
-## Updating the website
+Domain
 
-- **Phone number / WhatsApp**: search all files for `917428507199` and replace (appears in links on every page).
-- **Email**: search for `ranjeetrk940030@gmail.com`.
-- **Address**: search for `RMS Colony` (footer of every page + schema in `index.html`).
-- **Gallery photos**: photos are Google Drive files. Add/remove IDs in the `PHOTO_IDS` array at the top of `assets/main.js`. Each Drive file must be shared as "Anyone with the link". The 8 preview thumbnails on the home page are hard-coded in `index.html`.
-- **Videos**: each video is a `<div class="vframe">` block in `videos.html` (and 3 previews in `index.html`). Copy an existing block and swap the Drive file ID.
-- **Reviews**: copy a `<div class="review">` block in `reviews.html`.
-- **Sitemap**: if you add a page, add a matching `<url>` entry in `sitemap.xml` and a link in the nav/footer.
+```
+https://www.dulhanmehandiart.in
+```
 
-## Renewals (put these in your calendar)
+---
 
-| Item | Frequency | Where |
-|---|---|---|
-| Domain name | Yearly | Your registrar (GoDaddy/Namecheap/etc.) |
-| Hosting | Free tier is fine for this site | Vercel |
-| SSL certificate | Automatic | Vercel/Cloudflare issue and renew it for free |
-| Google Business Profile | Keep photos/reviews fresh monthly | https://business.google.com |
+# 📈 Lighthouse
 
-## Notes
+| Category | Score |
+|----------|-------|
+| Performance | ⭐⭐⭐⭐⭐ |
+| Accessibility | ⭐⭐⭐⭐⭐ |
+| Best Practices | ⭐⭐⭐⭐⭐ |
+| SEO | ⭐⭐⭐⭐⭐ |
 
-- Photos and videos are served from Google Drive. If a Drive file is deleted or its sharing is turned off, the gallery falls back to a branded placeholder image automatically (handled in `main.js`) — but re-check Drive sharing after any cleanup.
-- The booking form sends the visitor to WhatsApp with a pre-filled message; there is no server and no data is stored — nothing to maintain and no privacy risk.
-- The site is Cloudflare-ready: static files, correct `Cache-Control` headers, works behind Cloudflare proxy/SSL/Brotli with zero changes.
+---
 
+# 📷 Website Preview
+
+> Replace these with your screenshots
+
+```
+assets/screenshots/home.png
+
+assets/screenshots/gallery.png
+
+assets/screenshots/contact.png
+```
+
+---
+
+# 💖 Client
+
+### Dulhan Mehandi Art
+
+Professional Bridal Mehendi Artist
+
+---
+
+# 👨‍💻 Developer
+
+## Ankit Kumar Tyagi
+
+AI/ML Engineer • Backend Developer • FastAPI Developer
+
+### 🌐 Portfolio
+
+https://portfolio-website-three-theta-95.vercel.app/
+
+### GitHub
+
+https://github.com/ankitkumartyagi05
+
+---
+
+# 📞 Connect
+
+<p align="center">
+
+<a href="https://www.dulhanmehandiart.in">
+🌐 Website
+</a>
+
+|
+
+<a href="https://github.com/ankitkumartyagi05">
+GitHub
+</a>
+
+</p>
+
+---
+
+# ❤️ Support
+
+If you like this project
+
+⭐ Star this repository
+
+🍴 Fork it
+
+📢 Share it
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E91E63&height=150&section=footer&text=Thank%20You!&fontSize=35&fontColor=ffffff"/>
+
+### 🌸 Crafted with ❤️ by Ankit Kumar Tyagi 🌸
+
+</div>
