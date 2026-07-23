@@ -163,6 +163,19 @@ section {
 .mt {
   margin-top: 28px;
 }
+.small-yrs {
+  font-size: 0.35em;
+}
+.text-ink-soft {
+  color: var(--ink-soft);
+}
+.mb-14 {
+  margin-bottom: 14px;
+}
+.btn-full-center {
+  inline-size: 100%;
+  justify-content: center;
+}
 
 /* ---------- reusable glass surfaces ---------- */
 .glass,
@@ -1251,4 +1264,3 @@ footer a:hover {
 .skip-link:focus {
   left: 0;
 }
-
