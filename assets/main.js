@@ -76,14 +76,18 @@ var photoGrid = document.getElementById('photoGrid');
 if (photoGrid) {
   PHOTO_FILES.forEach(function(file, i){
     var fig = document.createElement('figure');
+    fig.dataset.index = String(i);
+    fig.setAttribute('role', 'button');
+    fig.setAttribute('tabindex', '0');
+    fig.setAttribute('aria-label', 'Open image ' + (i + 1));
     var img = document.createElement('img');
     img.loading = 'lazy';
+    img.decoding = 'async';
     img.alt = 'Mehndi design by Dulhan Mehndi Art — ' + file.replace(/_/g, ' ').replace(/\.(jpg|png)$/i, '');
     img.src = encodeURI('assets/photos/' + file);
     img.dataset.full = img.src;
     img.onerror = function(){ this.onerror = null; this.src = PLACEHOLDER; this.dataset.full = ''; };
     fig.appendChild(img);
-    fig.addEventListener('click', function(){ openLightbox(i); });
     photoGrid.appendChild(fig);
   });
 
@@ -102,6 +106,18 @@ if (photoGrid) {
     var img = photoGrid.children[lbIndex].querySelector('img');
     lbImg.src = img.dataset.full || img.src;
   }
+  photoGrid.addEventListener('click', function(e){
+    var fig = e.target.closest('figure');
+    if (!fig || !photoGrid.contains(fig)) return;
+    openLightbox(Number(fig.dataset.index));
+  });
+  photoGrid.addEventListener('keydown', function(e){
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var fig = e.target.closest('figure');
+    if (!fig || !photoGrid.contains(fig)) return;
+    e.preventDefault();
+    openLightbox(Number(fig.dataset.index));
+  });
   document.getElementById('lbClose').addEventListener('click', closeLightbox);
   document.getElementById('lbPrev').addEventListener('click', function(){ stepLightbox(-1); });
   document.getElementById('lbNext').addEventListener('click', function(){ stepLightbox(1); });
@@ -152,4 +168,3 @@ if (form) {
     window.open('https://wa.me/917428507199?text=' + encodeURIComponent(text), '_blank', 'noopener');
   });
 }
-
