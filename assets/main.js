@@ -25,7 +25,7 @@
   function hydrateLazyVideo(video) {
     if (!video || video.dataset.loaded === '1') return;
     var src = video.getAttribute('data-src');
-    if (!src) return;
+    if (!src || !/^assets\/videos\/[^?#]+\.(mp4)$/i.test(src)) return;
     video.src = src;
     video.dataset.loaded = '1';
     video.removeAttribute('data-src');
