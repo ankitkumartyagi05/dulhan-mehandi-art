@@ -236,7 +236,6 @@ https://github.com/ankitkumartyagi05
 🌐 Website
 </a>
 
-|
 
 <a href="https://github.com/ankitkumartyagi05">
 GitHub
